@@ -2,10 +2,9 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main: This will print out the last digit of a random number
- * number will be stored in variable (n)
- * return : Always 0
-
+ *main: This will print out the last digit of a random number
+ *number will be stored in variable (n)
+ *return: Always 0
 */
 int main(void)
 {
@@ -14,7 +13,7 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	x = n %10;
+	x = n % 10;
 	if (x > 5)
 	{
 		printf("Last digit of %d is %d and is greater than 5\n",
