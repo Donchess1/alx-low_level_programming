@@ -2,8 +2,8 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main: This will print out the last digit of a random number.
- *
+ * main: start point
+ * Description:- find the last digits
  * Return: Always 0.
 */
 int main(void)
