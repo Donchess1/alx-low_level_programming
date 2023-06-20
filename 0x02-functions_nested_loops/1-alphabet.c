@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include"main.h"
 /**
  *print_alphabet-This habours the print fun    ction.
  *description: store the function
@@ -9,19 +9,7 @@ void print_alphabet(void)
 
 	for (alp = 'a'; alp <= 'z'; alp++)
 	{
-	putchar(alp);
+	_putchar(alp);
 	}
-	putchar('\n');
+	_putchar('\n');
 }
-/**
- *main-Start point is here
- *description:To write alphabets
- *Return:0
- */
-
-int main(void)
-{
-	print_alphabet();
-	return (0);
-}
-
