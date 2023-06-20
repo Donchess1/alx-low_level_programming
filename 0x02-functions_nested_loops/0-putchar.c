@@ -1,5 +1,4 @@
 #include<stdio.h>
-#include<main.h>
 /**
   * main-Starts here
   * decription-prints _putchar
