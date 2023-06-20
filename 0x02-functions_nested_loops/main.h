@@ -1,0 +1,2 @@
+printf("_putchar")
+
