@@ -1,7 +1,8 @@
 #include"main.h"
 #include<stdio.h>
 /**
- * main-This swaps integers
+ *swap_int- interchanges figures
+ *description- used to swap integers
  *@a: integer a
  *@b: integer b
  *Return 0

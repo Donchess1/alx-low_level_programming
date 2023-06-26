@@ -1,10 +1,10 @@
-#include<stdio.h>
 #include"main.h"
+#include<stdio.h>
 /**
- *main-take pointer to integer
- @n: integer to be input*
- *Result: 0
-*/
+ *reset_to_98- move pointer
+ *@n: pointer to be moved
+ *Return 0
+ */
 void reset_to_98(int *n)
 {
 	*n = 98;
