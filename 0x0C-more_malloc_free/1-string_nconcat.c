@@ -10,40 +10,40 @@
  * Return: pointer to the resulting string
  */
 
-char *string_nconcat(char *s1, char *s2, unsigned int n) {
+char *string_nconcat(char *s1, char *s2, unsigned int n)
+{
 	size_t s1_len = strlen(s1);
 	size_t s2_len = strlen(s2);
 	char *A;
 	unsigned int i;
 
-	if (s1 == NULL) {
+	if (s1 == NULL)
+	{
 		s1 = "";
 		s1_len = 0;
 	}
 
-	if (s2 == NULL) {
+	if (s2 == NULL)
+	{
 		s2 = "";
 		s2_len = 0;
 	}
 
-	if (n >= s2_len) {
+	if (n >= s2_len)
 		n = s2_len;
-	}
 
 	A = (char *)malloc((s1_len + n + 1) * sizeof(char));
 
-	if (A == NULL) {
-		return NULL;
-    }
+	if (A == NULL)
+	return (NULL);
 
-	for (i = 0; i < s1_len; i++) {
+	for (i = 0; i < s1_len; i++)
+
 		A[i] = s1[i];
-	}
 
-	for (i = 0; i < n; i++) {
+	for (i = 0; i < n; i++)
 		A[s1_len + i] = s2[i];
-	}
 	A[s1_len + n] = '\0';
 
-	return A;
+	return (A);
 }
