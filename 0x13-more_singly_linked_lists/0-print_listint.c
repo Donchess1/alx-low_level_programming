@@ -1,4 +1,3 @@
-#include<stdio.h>
 #include"lists.h"
 /**
   *print_listint-Prints the contents of the list
@@ -12,9 +11,9 @@ size_t print_listint(const listint_t *h)
 
 	while (h)
 	{
-		if (!h->n)
+/**		if (!h->n)
 			continue;
-		else
+		else**/
 		printf("%u\n", h->n);
 	h = h->next;
 	n++;
